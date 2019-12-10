@@ -16,27 +16,24 @@ react-native init ProjectName
 
 #### 项目结构
 
-.
-├── App.js
-├── README
-├── \_\_tests\_\_
-│   └── App-test.js
-├── android
-├── app.json
-├── babel.config.js
-├── index.js
-├── ios
-├── metro.config.js
-├── package.json
-├── tree.text
-├── .buckconfig
-├── .eslintrc.js
-├── .flowconfig
-├── .gitattributes
-├── .gitignore
-├── .prettierrc.js
-├── .watchmanconfig
-└── yarn.lock
+> \_\_tests\_\_/
+> android/
+> ios/
+> App.js
+> app.json
+> index.js
+> babel.config.js
+> metro.config.js
+> package.json
+> .buckconfig
+> .eslintrc.js
+> .flowconfig
+> .gitattributes
+> .gitignore
+> .prettierrc.js
+> .watchmanconfig
+> yarn.lock
+> README
 
 **_注意：本文使用的是 react-native 当前最新版本 0.61.5_**
 

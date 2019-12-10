@@ -1,0 +1,16 @@
+.
+├── App.js
+├── README.md
+├── __tests__
+│   └── App-test.js
+├── android
+├── app.json
+├── babel.config.js
+├── index.js
+├── ios
+├── metro.config.js
+├── package.json
+├── tree.text
+└── yarn.lock
+
+1205 directories, 13932 files

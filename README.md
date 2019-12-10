@@ -1,17 +1,32 @@
 # 如何选择一个优秀的UI组件库
 选择一个优秀的UI组件库对提高开发效率非常有效，本文不对某个UI库的使用做过多的介绍，只介绍一下目前市面上比较优秀的一些库。
-### react-native-elements
-[react-native-elements](https://github.com/react-native-elements/react-native-elements)是github上一款开源RN组件库，目前获得17.7k的star，是一款非常优秀的来源组件库。同时也支持[React Native Web](https://github.com/necolas/react-native-web)，本文后续的分享也将选用这个UI库做实例展示。
+#### react-native-elements
+[react-native-elements](https://github.com/react-native-elements/react-native-elements)是github上一款开源RN组件库，目前获得17.7k的star，是一款非常优秀的来源组件库。该库是纯js实现不需要Link，同时也支持[React Native Web](https://github.com/necolas/react-native-web)。
 
 React Native Web是一个可以将我们的React Native代码运行在web端的库，它把react-native大部分组件都用web实现了一遍。
 
-### NativeBase
+#### NativeBase
 [NativeBase](https://github.com/GeekyAnts/NativeBase)也是github上一款开源的优秀项目。目前在github上获得13.1k的star。
 > 笔者当前使用的组件库就是NativeBase，使用起来感觉有点不尽人意，某些组件Android和IOS样式差别比较大。
 
-### ant-design-mobile-rn
+#### ant-design-mobile-rn
 [ant-design-mobile-rn](https://github.com/ant-design/ant-design-mobile-rn)ant-design出品，
 在github上目前获得1.5k的star。官方曾说过不再维护，后又撤销不再维护的说明文案。
 
-### shoutem/ui
+#### shoutem/ui
 [shoutem/ui](https://github.com/shoutem/ui)也是github上一款开源的优秀的组件库，目前获得4.4k的star。
+
+#### react-native-vector-icons
+[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)不是一个UI组件库，而是一个优秀的开源RN图标库，图标种类繁多，基本能满足日常开发需求。
+
+### 使用react-native-elements
+本文后续的分享将选用react-native-elements作为实例展示UI库。
+#### 安装
+```
+yarn add react-native-elements
+
+// 如果需要引入react-native-vector-icons作为基础图标库，执行下面命令
+// react-native-vector-icons需要link之后才能使用
+yarn add react-native-vector-icons
+react-native link react-native-vector-icons
+```

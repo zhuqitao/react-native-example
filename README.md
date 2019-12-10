@@ -30,3 +30,35 @@ yarn add react-native-elements
 yarn add react-native-vector-icons
 react-native link react-native-vector-icons
 ```
+
+#### 小试牛刀
+修改app/App.js
+```
+import React from 'react';
+import {View, StyleSheet} from 'react-native';
+import {Button, Icon} from 'react-native-elements';
+
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <View style={styles.root}>
+        <Button title="button" />
+        <Icon name="ios-american-football" type="ionicon" color="#517fa4" />
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+```
+可以在模拟器上看到按钮和Icon图标说明react-native-elements和react-native-vector-icons安装成功。

@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {
+import { 
   SafeAreaView,
   StyleSheet,
   ScrollView,
